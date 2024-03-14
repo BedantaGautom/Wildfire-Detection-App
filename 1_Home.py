@@ -177,7 +177,7 @@ def main():
 
     # Image selection
     image = None
-    image_source = st.radio("Select image source:", (, "Upload from Computer"))
+    image_source = st.radio("Upload from Computer")
     if image_source == "Upload from Computer":
         # File uploader for image
         uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
