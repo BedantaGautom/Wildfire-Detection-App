@@ -103,7 +103,7 @@ def main():
     st.markdown(
     """
     <div style='text-align: center;'>
-        <p>Welcome to our Wildfire Detection App! Our app uses the <a href='https://github.com/ultralytics/ultralytics'>YOLOv8</a> detection model, which is trained on <a href='https://github.com/gaiasd/DFireDataset'>D-Fire</a> - a dataset of images that can detect fire and smoke.</p>
+        <p>Welcome to our Wildfire Detection App! Our app uses the <a href='https://github.com/ultralytics/ultralytics'>YOLOv8</a> detection model, which is trained on the <a href='https://github.com/gaiasd/DFireDataset'>D-Fire</a> - a dataset of images that can detect fire and smoke.</p>
         <h3>📸 <strong>Try It Out!</strong></h3>
         <p>Experience the effectiveness of our detection model by uploading an image.</p>
     </div>
