@@ -180,7 +180,7 @@ def main():
     image_source = "Upload from Computer"
     if image_source == "Upload from Computer":
         # File uploader for image
-        uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+        uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg", "mp4"])
         if uploaded_file is not None:
             image = Image.open(uploaded_file)
         else:
