@@ -63,7 +63,7 @@ def predict_image(model, image, conf_threshold, iou_threshold):
 def main():
     # Set Streamlit page configuration
     st.set_page_config(
-        page_title="Wildfire Detection",
+        page_title="Wildfire Detection App",
         page_icon="🔥",
         initial_sidebar_state="collapsed",
     )
