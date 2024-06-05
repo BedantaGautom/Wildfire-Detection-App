@@ -1,5 +1,5 @@
 ### FOR TRAINING THE MODEL –
-1. Open the desired IDE or notebook and create a new Python virtual environment.<br>`python -m venv .venv`
+1. Open the desired IDE or notebook and create a new Python virtual environment.<br>```python -m venv .venv```
 2. Download and install PYTORCH and CUDA versions compatible with the system in the environment.<br>`!pip3 install torch torchvision torchaudio --index-url
 https://download.pytorch.org/whl/cu118`<br>
 3. Import torch and check whether CUDA detects the device's GPU.<br>`import torch`<br>`torch.cuda.is_available()`<br>`print(torch.cuda.get_device_name(0))`<br>
